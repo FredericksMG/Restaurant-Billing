@@ -1,16 +1,35 @@
-# Restaurant-Billing
-ES:
-Descripción --
-Aplicación Python/Tkinter para gestionar pedidos (comidas, bebidas, postres), calcular totales automáticamente (incluyendo 7% de impuestos) y generar recibos detallados. Permite guardar facturas, incluye calculadora integrada y ofrece interfaz intuitiva para simplificar el proceso de cobro en establecimientos gastronómicos.
+Restaurant Billing System | Sistema de Facturación para Restaurantes
 
-Funcionamiento --
-Este sistema de facturación para restaurantes, desarrollado en Python con Tkinter, permite gestionar pedidos mediante una interfaz intuitiva con checkboxes para seleccionar comidas, bebidas y postres. Calcula automáticamente subtotales, impuestos (7%) y total final usando operaciones con floats. Genera recibos profesionales con ID único (módulo random), fecha/hora exacta (datetime) y los guarda como archivos .txt (filedialog). La interfaz dinámica, organizada en paneles (Frames), muestra actualizaciones en tiempo real gracias a StringVar/IntVar. Ideal para agilizar el cobro en pequeños negocios gastronómicos.
+Bilingual Description | Descripción Bilingüe
+English:
+A complete and user-friendly Point of Sale (POS) system for restaurants.
+Features include order management for food, drinks, and desserts, automatic tax calculation (7%), digital receipt generation with unique IDs and timestamps, and the ability to save invoices as .txt files.
+Includes a built-in calculator and an intuitive GUI made with Tkinter.
+👉 If you find this project helpful, feel free to leave a ⭐ star and share it!
 
-EN:
-Description --
-Python/Tkinter application for managing orders (meals, drinks, desserts), automatically calculating totals (including 7% tax), and generating detailed receipts. It allows you to save invoices, includes a built-in calculator, and offers an intuitive interface to simplify the payment collection process in food establishments.
+Español:
+Un sistema de punto de venta (POS) completo y fácil de usar para restaurantes.
+Incluye gestión de pedidos para comidas, bebidas y postres, cálculo automático de impuestos (7%), generación de recibos digitales con ID únicos y sello de tiempo, y la opción de guardar facturas como archivos .txt.
+Incorpora una calculadora integrada y una interfaz gráfica intuitiva hecha con Tkinter.
+👉 Si te resulta útil este proyecto, ¡déjale una ⭐ estrella y compártelo!
 
-Funcionality --
-This restaurant billing system, built with Python and Tkinter, manages orders through an intuitive checkbox interface for selecting food, drinks, and desserts. It automatically calculates subtotals, taxes (7%), and final totals using float operations. Generates professional receipts with unique ID (random module), exact timestamp (datetime), and saves them as .txt files (filedialog). The dynamic interface, organized in panels (Frames), displays real-time updates using StringVar/IntVar. Perfect for streamlining payments in small food businesses. Features include a built-in calculator and reset functionality for new orders.
+Core Features | Funcionalidades Principales
+✔️ Order Management | Gestión de Pedidos: Selección de productos con casillas (checkboxes)
 
-⭐ Si te gusta este proyecto, ¡dale una estrella! / If you like this project, give it a star!
+✔️ Automatic Calculations | Cálculos Automáticos: Subtotal + 7% de impuesto + Total
+
+✔️ Digital Receipts | Recibos Digitales: Generación con ID único y fecha/hora
+
+✔️ Data Export | Exportación de Datos: Guarda los recibos como archivos .txt
+
+✔️ Dynamic UI | Interfaz Dinámica: Actualizaciones en tiempo real (StringVar/IntVar)
+
+✔️ Built-in Calculator | Calculadora Integrada: Útil para cálculos rápidos adicionales
+
+
+License | Licencia
+This project is licensed under the MIT License. Federico Aguayo
+Este proyecto está licenciado bajo la Licencia MIT. Federico Aguayo
+
+⭐ If you like this project, please consider giving it a star!
+⭐ ¡Si te gusta este proyecto, considera dejarle una estrella!
